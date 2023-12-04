@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/* 상단, 메뉴 */
+body{background:#fff;}
+body > .wrapper_web > header{position:fixed;height:80px;min-width:inherit;background:#fff;border-bottom:1px solid #caccd7;box-sizing:border-box;}
+body > .wrapper_web > header .main-logo{height:100%;background-color:#fff;}
+body > .wrapper_web > header .header_top nav{height:79px;}
+body > .wrapper_web > header .header_top nav ul{margin-right:240px;}
+body > .wrapper_web > header .header_top nav ul li{padding:9px 13px;height:auto;font-size:14px;color:#4b5675;}
+body > .wrapper_web > header .header_top nav ul li:hover, .top-menu-selected{background-color:#e5e5e5 !important;color:#4b5675 !important;box-shadow:none !important;}
+body > .wrapper_web > header .header-top-menu-badge{top:5px;right:7px;width:5px;height:5px;text-indent:-9999px;background:#ff0000;}
+body > .wrapper_web > header .header_top .user{height:100%;background:#fff;}
+body > .wrapper_web > header .header_top .user .user_info .info_box{background:#fff;}
+body > .wrapper_web > header .header_top .user .user_id span{font-size:14px;color:#4b5675;}
+@media screen and (max-width:1440px){
+	body > .wrapper_web > header .header_top nav ul{padding-top:25px;height:79px;white-space:nowrap;overflow-x:auto;box-sizing:border-box;}
+	body > .wrapper_web > header .header_top nav ul li{display:inline-block;float:none;}
+	body > .wrapper_web > header .header_top nav ul::-webkit-scrollbar{width:5px;height:5px;}
+	body > .wrapper_web > header .header_top nav ul::-webkit-scrollbar-thumb{background-color:#ddd;}
+	body > .wrapper_web > header .header_top nav ul::-webkit-scrollbar-track{background-color:#fff;}
+}
+body > .wrapper_web > .content{top:80px;min-width:1200px;}
+
+/* 메인 */
+body > .wrapper_web > .content > .main-wrapper{background:#fff;}
+body > .wrapper_web > .content > .main-wrapper > .inner{padding-right:20px;min-width:1160px;max-width:1360px;}
+/* body > .wrapper_web > .content > .main-wrapper > .inner > .col4{display:none;} */
+body > .wrapper_web > .content > .main-wrapper > .inner .col_inner{font-size:13px;border:1px #e5e5e5 solid;border-radius:10px;box-shadow:0px 3px 4px 0px rgba(0, 0, 0, 0.03);}
+body > .wrapper_web > .content > .main-wrapper .col1 .col_inner101 {display:flex;flex-direction:column;height:100%;}
+body > .wrapper_web > .content > .main-wrapper .col1 .col_inner .sub_inner01 {padding-top:20px;height:420px;box-sizing:border-box;}
+body > .wrapper_web > .content > .main-wrapper .irfw-ui-datepicker-header-month-year {font-size:15px;}
+body > .wrapper_web > .content > .main-wrapper .col1 .col_inner .sub_inner02 {height:calc(100% - 420px);}
+body > .wrapper_web > .content > .main-wrapper > .inner .col_inner .col_ttl_box {margin:0 -20px;padding:0 20px;border-bottom:1px solid #e5e5e5;}
+body > .wrapper_web > .content > .main-wrapper > .inner .col1 .col_inner .sub_inner02 .col_ttl_box{border-bottom:0px none;}
+body > .wrapper_web > .content > .main-wrapper > .inner .col_ttl_box ul li a h3.col_ttl {font-size:16px;color:#99a1b7;}
+body > .wrapper_web > .content > .main-wrapper > .inner .col_ttl_box ul li a h3.col_ttl.on {color:#252f4a;background:#fff;}
+body > .wrapper_web > .content > .main-wrapper > .inner .col_ttl_box ul li a h3.col_ttl.on::after {height:2px;background-color:#009ef7;}
+body > .wrapper_web > .content > .main-wrapper .col_ttl_box .more {right:20px;}
+body > .wrapper_web > .content > .main-wrapper .col3 .sub_inner03 .dayoff_btn {right:20px;background-color:#009ef7;box-shadow:none;}
+body > .wrapper_web > .content > .main-wrapper .contents .con00 table tr td div.ttl_box {height:36px;line-height:36px;}
+body > .wrapper_web > .content > .main-wrapper .contents .con00 table td .ttl_box strong {padding:10px 13px;width:100px;height:auto;line-height:15px;color:#009ef7;background-color:#f1faff;border-radius:8px;}
+body > .wrapper_web > .content > .main-wrapper .col3 .sub_inner04 .contents.card,
+body > .wrapper_web > .content > .main-wrapper .col3 .sub_inner04 .contents.tax {display:flex;align-items:center;justify-content:center;padding:0;background:none;}
+body > .wrapper_web > .content > .main-wrapper .irfw-ui-datepicker-day {padding:10px 2px 7px 2px;}
+body > .wrapper_web > .content > .main-wrapper .irfw-ui-datepicker-weekday-active {background-color:#009ef7;width:30px;height:30px;border-radius:15px;}
+body > .wrapper_web > .content > .main-wrapper .contents .dayoff_box {display:flex;justify-content:center;}
+body > .wrapper_web > .content > .main-wrapper .contents .dayoff_box li {display:flex;align-items:center;margin:0 10px;padding:0 30px;width:auto;}
+body > .wrapper_web > .content > .main-wrapper .contents .dayoff_box li strong.dayoff_ttl {font-size:14px;}
+body > .wrapper_web > .content > .main-wrapper .contents .dayoff_box .dayoff_desc {font-size:14px;}
+body > .wrapper_web > .content > .main-wrapper .contents .dayoff_box .dayoff_desc strong {margin:0 0 0 10px;}
+body > .wrapper_web > .content > .main-wrapper .contents .dayoff_box .dayoff_desc strong span {font-size:23px;}
